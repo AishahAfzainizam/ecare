@@ -1,9 +1,9 @@
 <?php
  
-$host = "lrgs.ftsm.ukm.my";
-$dbuser = "a188754";
-$dbpass = "hugegreengoat";
-$db = "a188754";
+$host = "yourhostname";
+$dbuser = "yourdbusername";
+$dbpass = "yourpassword";
+$db = "dbname";
 
 $conn = new PDO("mysql:host=$host;dbname=$db", $dbuser, $dbpass);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
